@@ -1,0 +1,12 @@
+[package]
+
+name = "simple_rust_scripts"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+
+[[bin]]
+name = "dice_roll"
+path = "scripts/dice_roll.rs"
